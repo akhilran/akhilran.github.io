@@ -17,6 +17,8 @@ h1 {
     font-family: "source-code";
     color:white;
     font-size: 2rem;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 h2 {
@@ -47,4 +49,24 @@ a {
 .icon {
     margin-left: 0.25em;
     margin-right: 0.25em;
+}
+
+@keyframes slider {
+    from {width: 0%;}
+    to {width:100%;}
+}
+
+.slide {
+    background-color: white;
+    animation-name: slider;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+}
+
+.slide-left {
+    margin-left:0;
+}
+
+.slide-right {
+    margin-right:0;
 }
